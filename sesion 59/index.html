@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sesion 59</title>
+    <script type="module" src="./asset/js/script.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <h1>Popovers</h1>
+    <button
+      type="button"
+      class="btn btn-lg btn-warning"
+      data-bs-toggle="popover"
+      data-bs-title="Tortugas"
+      data-bs-content="Las tortugas (Testudines) o quelonios (Chelonia) forman un orden de reptiles (Sauropsida) caracterizados por tener un tronco ancho y corto, y un caparazón que protege los órganos internos de su cuerpo."
+    >
+      Click to toggle popover
+    </button>
+    <hr />
+    <h3>Utilidades</h3>
+    <h4>Font size</h4>
+    <p class="fs-1">.fs-1 text</p>
+    <p class="fs-2">.fs-2 text</p>
+    <p class="fs-3">.fs-3 text</p>
+    <p class="fs-4">.fs-4 text</p>
+    <p class="fs-5">.fs-5 text</p>
+    <p class="fs-6">.fs-6 text</p>
+
+    <hr />
+    <h4>text tranform</h4>
+    <p class="text-lowercase">Lowercased text.</p>
+    <p class="text-uppercase">Uppercased text.</p>
+    <p class="text-capitalize">CapiTaliZed text.</p>
+    <hr />
+
+    <h4>Text weight</h4>
+    <p class="fw-bold">Bold text.</p>
+    <p class="fw-bolder">
+      Bolder weight text (relative to the parent element).
+    </p>
+    <p class="fw-semibold">Semibold weight text.</p>
+    <p class="fw-medium">Medium weight text.</p>
+    <p class="fw-normal">Normal weight text.</p>
+    <p class="fw-light">Light weight text.</p>
+    <p class="fw-lighter">
+      Lighter weight text (relative to the parent element).
+    </p>
+    <p class="fst-italic">Italic text.</p>
+    <p class="fst-normal">Text with normal font style</p>
+
+    <hr />
+    <h4>Borders</h4>
+    <div class="border border-warning rounded-5">Border primary</div>
+    <img
+      src="https://lh5.googleusercontent.com/proxy/9vqIPeIeHQHyGEo43DlSgD-DUtidieclv56O6UoAcYNGPXGNnZwFJL2V7oSodehCB1YT28jit7pMSVjNTnrBOnlBxW0CiRmOeH22FlPockzEbfdQPHLkDMPcgMwWdNfVHF1r2QpUk6W_aY_J87A9lFtYKMHf8_xhkMB7l_4=w1200-h630-p-k-no-nu"
+      class="rounded-circle"
+      alt="..."
+    />
+
+    <h4>Shadow</h4>
+    <div class="shadow-none p-3 mb-5 bg-body-tertiary rounded">No shadow</div>
+    <div class="shadow-sm p-3 mb-5 bg-body-tertiary rounded">Small shadow</div>
+    <div class="shadow p-3 mb-5 bg-body-tertiary rounded">Regular shadow</div>
+    <div class="shadow-lg p-3 mb-5 bg-body-tertiary rounded">Larger shadow</div>
+
+    <h4>Sizing</h4>
+    <div class="w-25 p-3">Width 25%</div>
+    <div class="w-50 p-3">Width 50%</div>
+    <div class="w-75 p-3">Width 75%</div>
+    <div class="w-100 p-3">Width 100%</div>
+    <div class="w-auto p-3">Width auto</div>
+    <hr />
+    <h4>Bootstrap Grid</h4>
+    <div class="container row">
+      <div
+        class="border-2 border border-success col-12 col-sm-6 col-md-4 col-lg-3"
+      >
+        <p>Contenedor 1</p>
+      </div>
+      <div
+        class="border-2 border border-success col-12 col-sm-6 col-md-4 col-lg-3"
+      >
+        <p>Contenedor 2</p>
+      </div>
+      <div
+        class="border-2 border border-success col-12 col-sm-6 col-md-4 col-lg-3"
+      >
+        <p>Contenedor 3</p>
+      </div>
+      <div
+        class="border-2 border border-success col-12 col-sm-6 col-md-4 col-lg-3"
+      >
+        <p>Contenedor 4</p>
+      </div>
+      <div
+        class="border-2 border border-success col-12 col-sm-6 col-md-4 col-lg-3"
+      >
+        <p>Contenedor 5</p>
+      </div>
+      <div
+        class="border-2 border border-success col-12 col-sm-6 col-md-4 col-lg-3"
+      >
+        <p>Contenedor 6</p>
+      </div>
+    </div>
+    <hr />
+
+    <div class="row">
+      <div class="border border-info col-1">
+        <p>hola</p>
+      </div>
+      <div class="border border-info col-11">
+        <p>hola</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="border border-info col-2">
+        <p>hola</p>
+      </div>
+      <div class="border border-info col-10">
+        <p>hola</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="border border-info col-3">
+        <p>hola</p>
+      </div>
+      <div class="border border-info col-9">
+        <p>hola</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="border border-info col-4">
+        <p>hola</p>
+      </div>
+      <div class="border border-info col-8">
+        <p>hola</p>
+      </div>
+      <div class="row">
+        <div class="border border-info col-5">
+          <p>hola</p>
+        </div>
+        <div class="border border-info col-7">
+          <p>hola</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="border border-info col-6">
+          <p>hola</p>
+        </div>
+        <div class="border border-info col-6">
+          <p>hola</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="border border-info col-7">
+          <p>hola</p>
+        </div>
+        <div class="border border-info col-5">
+          <p>hola</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="border border-info col-8">
+          <p>hola</p>
+        </div>
+        <div class="border border-info col-4">
+          <p>hola</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="border border-info col-9">
+          <p>hola</p>
+        </div>
+        <div class="border border-info col-3">
+          <p>hola</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="border border-info col-10">
+          <p>hola</p>
+        </div>
+        <div class="border border-info col-2">
+          <p>hola</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="border border-info col-11">
+          <p>hola</p>
+        </div>
+        <div class="border border-info col-1">
+          <p>hola</p>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="card" style="width: 18rem">
+      <img src="..." class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem">
+      <img src="..." class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem">
+      <img src="..." class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem">
+      <img src="..." class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">
+          Some quick example text to build on the card title and make up the
+          bulk of the card's content.
+        </p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
